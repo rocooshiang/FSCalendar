@@ -183,6 +183,7 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
     _selectedDates = [NSMutableArray arrayWithCapacity:1];
     _visibleSectionHeaders = [NSMapTable weakToWeakObjectsMapTable];
     
+    _isHalfShape = YES;
     _pagingEnabled = YES;
     _scrollEnabled = YES;
     _needsAdjustingViewFrame = YES;
